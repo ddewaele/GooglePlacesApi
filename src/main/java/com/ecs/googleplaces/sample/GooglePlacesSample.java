@@ -39,9 +39,6 @@ public class GooglePlacesSample {
 	//double latitude = 51.034823;
 	//double longitude = 4.483774;
 
-	// home
-	//double latitude = 50.963062;
-	//double longitude = 3.522255;
 	
 	public static void main(String[] args) throws Exception {
 		GooglePlacesSample sample = new GooglePlacesSample();
