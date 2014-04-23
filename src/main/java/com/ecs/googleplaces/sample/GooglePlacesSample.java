@@ -35,21 +35,12 @@ public class GooglePlacesSample {
 	double latitude = 37.784147;
 	double longitude = -122.402115;
 	
-	// telenet
-	//double latitude = 51.034823;
-	//double longitude = 4.483774;
-
-	
 	public static void main(String[] args) throws Exception {
 		GooglePlacesSample sample = new GooglePlacesSample();
 		sample.performSearch();
 		sample.performDetails("CnRtAAAATk9IL_xAKeSvHXp8_HgRIeYBg4WEKXPdaTp1SbYumSWBQOXsxCSIe1vE8wb3V4beQymGJrKXTUgpWXlnYIxoLCTijO-aMyObxzS_aQOAxTFQqfQohb9YuBddllTaeiDhNeTh8sB4LUP7BOYfu1o0zRIQpdJKnwdPABlgFUs3BIVTkhoUdmJJq1AIbISzW2JpY497I5lYIqo");
 		sample.performAutoComplete();
 	}
-	
-	
-	
-	
 	
 	public void performSearch() throws Exception {
 		try {
